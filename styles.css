@@ -106,12 +106,13 @@ footer {
 
   .logo h1 {
     margin-left: 0;
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
+    font-size: 18px;
   }
 
   .container {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .input {
@@ -120,21 +121,25 @@ footer {
 
   .input input[type="search"],
   .input button {
-    margin: 5px 0;
+    margin: 10px 0;
     width: 100%;
+    padding: 15px;
+    font-size: 16px;
   }
 
   #searchButton {
     margin-right: 0;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
   }
 
   #clearButton {
     margin-left: 0;
+    font-size: 24px;
   }
 
   footer {
-    padding: 20px;
-    font-size: 10px;
+    padding: 30px;
+    font-size: 14px;
   }
 }
