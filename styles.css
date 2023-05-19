@@ -4,6 +4,7 @@
 
 .logo {
   display: flex;
+  align-items: center;
 }
 
 .logo img {
@@ -13,7 +14,7 @@
 
 .logo h1 {
   margin-left: 10px;
-  margin-top: 30px;
+  margin-top: 10px; /* Adjusted margin for mobile */
   color: rgb(9, 109, 47);
 }
 
@@ -29,11 +30,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 30px; /* Adjusted padding for mobile */
 }
 
 .input {
   display: flex;
+  flex-wrap: wrap; /* Allow input elements to wrap on smaller screens */
   align-items: center;
   justify-content: center;
   margin-top: 20px;
@@ -45,39 +47,39 @@ input:focus::placeholder {
 
 .input input[type="search"],
 .input button {
-  padding: 15px;
+  padding: 10px; /* Adjusted padding for mobile */
   border-radius: 10px;
   border: none;
 }
 
 .input input[type="search"] {
   margin-right: 5px;
-  margin-left: 15px;
-  width: 300px;
+  margin-left: 5px; /* Adjusted margin for mobile */
+  flex-grow: 1; /* Allow input to grow and fill available space */
   font-size: 15px;
 }
 
 #searchButton {
-  font-size: 30px;
+  font-size: 20px; /* Adjusted font size for mobile */
   background-color: transparent;
   border: none;
-  margin-right: -10px;
+  margin-right: -5px; /* Adjusted margin for mobile */
   cursor: pointer;
 }
 
 #clearButton {
-  font-size: 30px;
+  font-size: 20px; /* Adjusted font size for mobile */
   background-color: transparent;
   border: none;
-  margin-left: -10px;
+  margin-left: -5px; /* Adjusted margin for mobile */
   cursor: pointer;
 }
 
 footer {
-  padding: 50px;
+  padding: 30px; /* Adjusted padding for mobile */
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 12px; /* Adjusted font size for mobile */
   color: #333;
   margin-top: auto;
 }
