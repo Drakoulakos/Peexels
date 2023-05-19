@@ -72,7 +72,7 @@ input:focus::placeholder {
   background-color: transparent;
   border: none;
   margin-left: -5px; /* Adjusted margin for mobile */
-  cursor: pointer;.
+  cursor: pointer;
 }
 
 footer {
