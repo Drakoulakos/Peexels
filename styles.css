@@ -1,5 +1,5 @@
 .header {
-  padding: 20px;
+  padding: 30px;
 }
 
 .logo {
@@ -8,15 +8,15 @@
 }
 
 .logo img {
-  width: 160px;
-  height: 120px;
+  width: 200px;
+  height: 140px;
 }
 
 .logo h1 {
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
   color: rgb(9, 109, 47);
-  font-size: 24px;
+  font-size: 28px;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .input {
@@ -39,7 +39,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 input:focus::placeholder {
@@ -48,40 +48,40 @@ input:focus::placeholder {
 
 .input input[type="search"],
 .input button {
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
   border: none;
 }
 
 .input input[type="search"] {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
   flex-grow: 1;
-  font-size: 18px;
-  max-width: 400px;
+  font-size: 24px;
+  max-width: 480px;
 }
 
 #searchButton {
-  font-size: 28px;
+  font-size: 36px;
   background-color: transparent;
   border: none;
-  margin-right: -10px;
+  margin-right: -20px;
   cursor: pointer;
 }
 
 #clearButton {
-  font-size: 28px;
+  font-size: 36px;
   background-color: transparent;
   border: none;
-  margin-left: -10px;
+  margin-left: -20px;
   cursor: pointer;
 }
 
 footer {
-  padding: 40px;
+  padding: 50px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #333;
   margin-top: auto;
 }
@@ -90,12 +90,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 40px;
   color: red;
 }
 
 .results-container img {
-  margin: 10px;
+  margin: 20px;
 }
 
 /* Media queries for responsive design */
@@ -107,40 +107,41 @@ footer {
 
   .logo h1 {
     margin-left: 0;
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .container {
-    padding-top: 50px;
+    padding-top: 30px;
   }
 
   .input {
     flex-direction: column;
+    align-items: stretch;
   }
 
   .input input[type="search"],
   .input button {
-    margin: 15px 0;
+    margin: 10px 0;
     width: 100%;
-    padding: 20px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 16px;
   }
 
   #searchButton {
     margin-right: 0;
-    margin-bottom: 15px;
-    font-size: 32px;
+    margin-bottom: 10px;
+    font-size: 24px;
   }
 
   #clearButton {
     margin-left: 0;
-    font-size: 32px;
+    font-size: 24px;
   }
 
   footer {
-    padding: 50px;
-    font-size: 18px;
+    padding: 30px;
+    font-size: 14px;
   }
 }
