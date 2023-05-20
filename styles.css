@@ -64,19 +64,30 @@ input:focus::placeholder {
   max-width: 480px;
 }
 
-#searchButton {
-  font-size: 30px;
+#imageSearchButton {
+  font-size: 20px;
   background-color: transparent;
-  border: none;
+  margin-right: -20px;
+  cursor: pointer;
+}
+#videoSearchButton {
+  font-size: 20px;
+  background-color: transparent;
   margin-right: -20px;
   cursor: pointer;
 }
 
-#clearButton {
-  font-size: 36px;
+#clearImageButton {
+  font-size: 20px;
   background-color: transparent;
-  border: none;
-  margin-left: -20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#clearVideoButton {
+  font-size: 20px;
+  background-color: transparent;
+  margin-left: 20px;
   cursor: pointer;
 }
 
@@ -98,5 +109,17 @@ footer {
 }
 
 .results-container img {
-  margin: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.results-container video {
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }

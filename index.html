@@ -31,12 +31,31 @@
     <div class="container">
       <h1>Search for Inspiration</h1>
       <div class="input">
-        <input type="search" id="searchInput" placeholder="Type anything..." />
-        <button id="searchButton">🔍</button>
-        <button id="clearButton">🔃</button>
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Type anything for images..."
+        />
+        <button id="imageSearchButton">🔍</button>
+        <button id="clearImageButton">🔃</button>
       </div>
     </div>
     <div class="results-container" id="resultsContainer"></div>
+    <hr />
+    <div class="container">
+      <h1>Search for Videos</h1>
+      <div class="input">
+        <input
+          type="search"
+          id="videoSearchInput"
+          placeholder="Type anything for videos..."
+        />
+        <button id="videoSearchButton">🔍</button>
+        <button id="clearVideoButton">🔃</button>
+      </div>
+    </div>
+    <div class="results-container" id="videoResultsContainer"></div>
+
     <footer>&copy; 2023 Michalis Drakoulakos. All rights reserved.</footer>
     <script src="app.js"></script>
   </body>
