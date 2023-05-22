@@ -20,7 +20,7 @@
 
 body {
   background-color: rgb(224, 246, 224);
-  font-family: "Patrick Hand SC", cursive;
+  font-family: "Patrick Hand", cursive, sans-serif;
   display: flex;
   flex-direction: column;
   height: 100vh;
