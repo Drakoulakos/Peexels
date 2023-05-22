@@ -19,7 +19,7 @@ function searchImages() {
 
   fetch(`https://api.pexels.com/v1/search?query=${query}`, {
     headers: {
-      Authorization: "d3mgFTRyPdzTWXs6HIkOxRwxiAQ2ZCwWCzsm15yu0BnrjHicNa6BajF7", // Replace with your API key
+      Authorization: "d3mgFTRyPdzTWXs6HIkOxRwxiAQ2ZCwWCzsm15yu0BnrjHicNa6BajF7",
     },
   })
     .then((response) => response.json())
@@ -77,13 +77,13 @@ function searchVideos() {
   const query = videoSearchInput.value;
 
   if (!query) {
-    displayVideoErrorMessage("Please enter a search term");
+    displayVideoErrorMessage("Please type something");
     return;
   }
 
   fetch(`https://api.pexels.com/videos/search?query=${query}`, {
     headers: {
-      Authorization: "d3mgFTRyPdzTWXs6HIkOxRwxiAQ2ZCwWCzsm15yu0BnrjHicNa6BajF7", // Replace with your API key
+      Authorization: "d3mgFTRyPdzTWXs6HIkOxRwxiAQ2ZCwWCzsm15yu0BnrjHicNa6BajF7",
     },
   })
     .then((response) => response.json())
